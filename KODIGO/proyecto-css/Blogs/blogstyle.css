@@ -1,0 +1,55 @@
+body {
+  background: content-box radial-gradient(#92e27a, skyblue);
+  background-color: #e3fcbf;
+  font-family: "Rokkitt", sans-serif;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+  padding: 8px;
+  margin: 10px;
+  float: left;
+  width: 400px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/*BUTTONS*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
